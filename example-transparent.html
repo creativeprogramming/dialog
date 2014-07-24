@@ -30,8 +30,8 @@
 	</div>
 	<div class="docs-globalnav">
 		<nav class="docs-nav">
-			<a href="example.html" class="current">Standard Dialog</a>
-			<a href="example-transparent.html">Transparent Background</a>
+			<a href="example.html">Standard Dialog</a>
+			<a href="example-transparent.html" class="current">Transparent Background</a>
 			<a href="example-ajax.html">Dialog with Ajax</a>
 		</nav>
 	</div>
@@ -39,23 +39,23 @@
 
 <pre><code>
 &lt;p class="docs"&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#mydialog" id="mydialog-btn"&gt;Open Dialog&lt;/a&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#mytransparentdialog" id="mytransparentdialog-btn"&gt;Open Dialog with Transparent Background&lt;/a&gt;
 &lt;/p&gt;
 
-&lt;div class="dialog" id="mydialog"&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is a dialog&lt;/p&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#mydialog-btn" class="dialog-close"&gt;Close&lt;/a&gt;
+&lt;div class="dialog" id="mytransparentdialog" data-transbg&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is a dialog with a transparent background&lt;/p&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#mytransparentdialog-btn" class="dialog-close"&gt;Close&lt;/a&gt;
 &lt;/div&gt;
 </code></pre>
 
 		<p class="docs">
-			<a href="#mydialog" id="mydialog-btn">Open Dialog</a>
+			<a href="#mytransparentdialog" id="mytransparentdialog-btn">Open Dialog with Transparent Background</a>
 		</p>
 
 
-		<div class="dialog" id="mydialog">
-			<p>This is a dialog</p>
-			<a href="#mydialog-btn" class="dialog-close">Close</a>
+		<div class="dialog" id="mytransparentdialog" data-transbg>
+			<p>This is a dialog with a transparent background</p>
+			<a href="#mytransparentdialog-btn" class="dialog-close">Close</a>
 		</div>
 
 	</div>
