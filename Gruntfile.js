@@ -17,15 +17,19 @@ module.exports = function(grunt) {
 			},
 			min: {
 				files: {
-					'dialog.min.js': ['dialog.build.js']
+					'dist/dialog.min.js': ['dist/dialog.build.js']
 				}
 			}
 		},
 
 		concat: {
 			dist: {
-				src: ['dialog.js', 'dialog-init.js'],
-				dest: 'dialog.build.js'
+				src: ['src/dialog.js', 'src/dialog-init.js'],
+				dest: 'dist/dialog.build.js'
+			},
+			css: {
+				src: ['src/dialog.css'],
+				dest: 'dist/dialog.css'
 			}
 		}
 	});

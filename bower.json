@@ -1,7 +1,7 @@
 {
   "name": "filament-dialog",
-  "version": "0.1.2",
-  "main": ["dialog.js", "dialog.css"],
+  "version": "0.1.4",
+  "main": ["dist/dialog.build.js", "dist/dialog.css"],
   "ignore": [
     "**/.*"
   ],
